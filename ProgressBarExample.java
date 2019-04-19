@@ -1,6 +1,5 @@
 
 import java.awt.*;
-import java.net.URL;
 import javax.swing.*;
 //import javax.swing.border.*;
 
@@ -20,15 +19,15 @@ public class ProgressBarExample {
         // f.getContentPane().setBackground(new Color(153, 170, 181)); // light -light-light blue
         // f.getContentPane().setBackground(new Color(44, 47, 51));// grey-dicord chat color
       //  JLabel l1 = new JLabel("", new ImageIcon("D:\\1.gif"), JLabel.CENTER);
-       Class cls = this.getClass();
-        URL url = cls.getResource("anyfiles\\icon\\icon\\1.gif");
-        JLabel l1 = new JLabel( new ImageIcon(url));
+  
+     
+        JLabel l1 = new JLabel( new ImageIcon(getClass().getResource("/1.gif")));
         l1.setBounds(60, 0, 100, 100);
         f.add(l1);
         //   f.getContentPane().setBackground(Color.blue);
         l1.setSize(400, 400);
-        url = cls.getResource("anyfiles\\icon\\icon\\5.gif");
-        JLabel l2 = new JLabel(new ImageIcon(url));
+     
+        JLabel l2 = new JLabel(new ImageIcon(getClass().getResource("/5.gif")));
         l2.setBounds(150, 400, 400, 20);
 
         l2.setSize(200, 200);

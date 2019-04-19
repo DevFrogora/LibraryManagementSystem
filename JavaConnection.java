@@ -35,7 +35,7 @@ public class JavaConnection {
             // Closes the Connection
             // The Connection is obtained
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, e);
+            JOptionPane.showMessageDialog(null, "please Connect Xamp Start Mysql","Error the Developer Wants You to Start Xamp/Wamp",JOptionPane.ERROR_MESSAGE);
         }
     }
 
@@ -48,7 +48,7 @@ public class JavaConnection {
             // Closes the Connection
             // The Connection is obtained
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, e);
+            JOptionPane.showMessageDialog(null, "please Connect Xamp Start Mysql","Error the Developer Wants You to Start Xamp/Wamp",JOptionPane.ERROR_MESSAGE);
         }
     }
 

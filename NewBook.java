@@ -7,7 +7,6 @@ import java.awt.Color;
 import java.awt.Font;
 import javax.swing.*;
 import java.awt.event.*;
-import java.net.URL;
 import javax.swing.border.TitledBorder;
 
 /**
@@ -89,16 +88,15 @@ public class NewBook extends JFrame {
 
         add = new JButton("Add");
         add.setBounds(70, 350, 100, 30);
-        Class cls = this.getClass();
-        URL url = cls.getResource("anyfiles\\icon\\icon\\12.png");
-        add.setIcon(new ImageIcon(url));
+        
+        add.setIcon(new ImageIcon(getClass().getResource("/12.png")));
 
         add.setHorizontalAlignment(SwingConstants.LEFT);
         p.add(add);
         back = new JButton("Back");
         back.setBounds(300, 350, 100, 30);
-        url = cls.getResource("anyfiles\\icon\\icon\\11.png");
-        back.setIcon(new ImageIcon(url));
+        
+        back.setIcon(new ImageIcon(getClass().getResource("/11.png")));
 
         back.setHorizontalAlignment(SwingConstants.LEFT);
         back.addActionListener(new ActionListener() {

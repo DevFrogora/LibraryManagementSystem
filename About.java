@@ -29,7 +29,7 @@ public class About extends JFrame {
         add(l2);
         back = new JButton("Back");
         back.setSize(100, 100);
-        back.setIcon(new ImageIcon("E:\\icon\\11.png"));
+        back.setIcon(new ImageIcon(getClass().getResource("/11.png")));
 
         back.setHorizontalAlignment(SwingConstants.LEFT);
         getContentPane().setBackground(new Color(44, 47, 51));

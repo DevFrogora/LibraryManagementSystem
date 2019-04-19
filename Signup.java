@@ -9,7 +9,6 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.io.File;
 import java.io.IOException;
-import java.net.URL;
 import java.sql.*;
 import javax.swing.border.TitledBorder;
 
@@ -79,16 +78,16 @@ public class Signup extends JFrame {
 
         create = new JButton("Create");
         create.setBounds(70, 340, 100, 30);
-        Class cls = this.getClass();
-        URL url = cls.getResource("anyfiles\\icon\\icon\\12.png");
-        create.setIcon(new ImageIcon(url));
+        
+     
+        create.setIcon(new ImageIcon(getClass().getResource("/12.png")));
 
         create.setHorizontalAlignment(SwingConstants.LEFT);
         p.add(create);
         Back = new JButton("Back");
         Back.setBounds(290, 340, 100, 30);
-        url = cls.getResource("anyfiles\\icon\\icon\\11.png");
-        Back.setIcon(new ImageIcon(url));
+        
+        Back.setIcon(new ImageIcon(getClass().getResource("/11.png")));
 
         Back.setHorizontalAlignment(SwingConstants.LEFT);
         p.add(Back);

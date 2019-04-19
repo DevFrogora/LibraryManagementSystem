@@ -7,7 +7,6 @@ import java.awt.Color;
 import java.awt.Font;
 import javax.swing.*;
 import java.awt.event.*;
-import java.net.URL;
 import javax.swing.border.TitledBorder;
 import java.sql.*;
 
@@ -25,8 +24,8 @@ public class Update extends JFrame {
     String yyear[], ssem[], ccourse[], mmember[];
 
     JComboBox j1, j2, j3, j4;
-    Class cls = this.getClass();
-    URL url;
+   
+    
 
     Update() {
 
@@ -51,8 +50,8 @@ public class Update extends JFrame {
         b1 = new JButton();
         b1.setBounds(80, 60, 100, 100);
         
-        url = cls.getResource("anyfiles\\icon\\icon\\24.png");
-        b1.setIcon(new ImageIcon(url));
+       
+        b1.setIcon(new ImageIcon(getClass().getResource("/24.png")));
         b1.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
@@ -67,8 +66,8 @@ public class Update extends JFrame {
         p1.add(b1);
         b2 = new JButton("Book");
         b2.setBounds(300, 60, 100, 100);
-        url = cls.getResource("anyfiles\\icon\\icon\\25.png");
-        b2.setIcon(new ImageIcon(url));
+        
+        b2.setIcon(new ImageIcon(getClass().getResource("/25.png")));
         b2.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
@@ -96,9 +95,9 @@ public class Update extends JFrame {
         b3 = new JButton();
         b3.setBounds(80, 60, 100, 100);
         b3.setBounds(80, 60, 100, 100);
-        url = cls.getResource("anyfiles\\icon\\icon\\23.png");
+       
 
-        b3.setIcon(new ImageIcon(url));
+        b3.setIcon(new ImageIcon(getClass().getResource("/23.png")));
         b3.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
@@ -112,8 +111,8 @@ public class Update extends JFrame {
         p3.add(l3);
         b4 = new JButton("Book");
         b4.setBounds(300, 60, 100, 100);
-        url = cls.getResource("anyfiles\\icon\\icon\\26.png");
-        b4.setIcon(new ImageIcon(url));
+       
+        b4.setIcon(new ImageIcon(getClass().getResource("/26.png")));
 
         b4.addActionListener(new ActionListener() {
 
@@ -130,8 +129,8 @@ public class Update extends JFrame {
         p3.add(b4);
         JButton back = new JButton("Back");
         back.setBounds(400, 700, 100, 30);
-         url = cls.getResource("anyfiles\\icon\\icon\\11.png");
-        back.setIcon(new ImageIcon(url));
+        
+        back.setIcon(new ImageIcon(getClass().getResource("/11.png")));
 
         back.setHorizontalAlignment(SwingConstants.LEFT);
         getContentPane().setBackground(Color.red);
@@ -218,8 +217,8 @@ public class Update extends JFrame {
         JButton b1, b2;
         b1 = new JButton("search");
         b1.setBounds(620, 60, 100, 30);
-         url = cls.getResource("anyfiles\\icon\\icon\\18.png");
-        b1.setIcon(new ImageIcon(url));
+       
+        b1.setIcon(new ImageIcon(getClass().getResource("/18.png")));
         b1.setHorizontalAlignment(SwingConstants.LEFT);
         b1.addActionListener(new ActionListener() {
 
@@ -260,8 +259,8 @@ public class Update extends JFrame {
         p2.add(b1);
         b2 = new JButton("Update");
         b2.setBounds(620, 350, 100, 30);
-         url = cls.getResource("anyfiles\\icon\\icon\\20.png");
-        b2.setIcon(new ImageIcon(url));
+        
+        b2.setIcon(new ImageIcon(getClass().getResource("/20.png")));
         b2.setHorizontalAlignment(SwingConstants.LEFT);
         p2.add(b2);
 
@@ -376,8 +375,8 @@ public class Update extends JFrame {
         JButton b1, b2;
         b1 = new JButton("search");
         b1.setBounds(620, 60, 100, 30);
-         url = cls.getResource("anyfiles\\icon\\icon\\17.png");
-        b1.setIcon(new ImageIcon(url));
+       
+        b1.setIcon(new ImageIcon(getClass().getResource("/17.png")));
         b1.setHorizontalAlignment(SwingConstants.LEFT);
         b1.addActionListener(new ActionListener() {
 
@@ -417,8 +416,8 @@ public class Update extends JFrame {
         p2.add(b1);
         b2 = new JButton("Update");
         b2.setBounds(620, 350, 100, 30);
-         url = cls.getResource("anyfiles\\icon\\icon\\20.png");
-        b2.setIcon(new ImageIcon(url));
+      
+        b2.setIcon(new ImageIcon(getClass().getResource("/20.png")));
         b2.setHorizontalAlignment(SwingConstants.LEFT);
         p2.add(b2);
 
@@ -533,8 +532,8 @@ public class Update extends JFrame {
         JButton b1, b2;
         b1 = new JButton("search");
         b1.setBounds(620, 60, 100, 30);
-         url = cls.getResource("anyfiles\\icon\\icon\\17.png");
-        b1.setIcon(new ImageIcon(url));
+        
+        b1.setIcon(new ImageIcon(getClass().getResource("/17.png")));
         b1.setHorizontalAlignment(SwingConstants.LEFT);
         b1.addActionListener(new ActionListener() {
 
@@ -574,8 +573,8 @@ public class Update extends JFrame {
         p2.add(b1);
         b2 = new JButton("Delete");
         b2.setBounds(620, 350, 100, 30);
-         url = cls.getResource("anyfiles\\icon\\icon\\21.png");
-        b2.setIcon(new ImageIcon(url));
+        
+        b2.setIcon(new ImageIcon(getClass().getResource("/21.png")));
         b2.setHorizontalAlignment(SwingConstants.LEFT);
         p2.add(b2);
 
@@ -699,8 +698,8 @@ public class Update extends JFrame {
         JButton b1, b2;
         b1 = new JButton("search");
         b1.setBounds(620, 60, 100, 30);
-         url = cls.getResource("anyfiles\\icon\\icon\\18.png");
-        b1.setIcon(new ImageIcon(url));
+        
+        b1.setIcon(new ImageIcon(getClass().getResource("/18.png")));
         b1.setHorizontalAlignment(SwingConstants.LEFT);
         b1.addActionListener(new ActionListener() {
 
@@ -741,8 +740,8 @@ public class Update extends JFrame {
         p2.add(b1);
         b2 = new JButton("Delete");
         b2.setBounds(620, 350, 100, 30);
-         url = cls.getResource("anyfiles\\icon\\icon\\21.png");
-        b2.setIcon(new ImageIcon(url));
+       
+        b2.setIcon(new ImageIcon(getClass().getResource("/21.png")));
         b2.setHorizontalAlignment(SwingConstants.LEFT);
         p2.add(b2);
 

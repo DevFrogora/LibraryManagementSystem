@@ -10,7 +10,6 @@ import java.sql.*;
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
 import java.awt.event.*;
-import java.net.URL;
 
 /**
  *
@@ -68,9 +67,8 @@ public class Statistics extends JFrame {
         add(p2);
         back = new JButton("Back");
         back.setBounds(400, 660, 100, 30);
-        Class cls = this.getClass();
-        URL url = cls.getResource("anyfiles\\icon\\icon\\11.png");
-        back.setIcon(new ImageIcon(url));
+     
+        back.setIcon(new ImageIcon(getClass().getResource("/11.png")));
 
         back.setHorizontalAlignment(SwingConstants.LEFT);
         back.addActionListener(new ActionListener() {

@@ -7,7 +7,6 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.net.URL;
 import java.sql.ResultSet;
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
@@ -48,10 +47,10 @@ public class ViewTable extends JFrame {
         b1 = new JButton();
         b1.setBounds(80, 60, 150, 150);
         b1.setBackground(Color.blue);
-        Class cls = this.getClass();
-        URL url = cls.getResource("anyfiles\\icon\\icon\\28.png");
+       
+  
 
-        b1.setIcon(new ImageIcon(url));
+        b1.setIcon(new ImageIcon(getClass().getResource("/28.png")));
         b1.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
@@ -64,8 +63,8 @@ public class ViewTable extends JFrame {
         b2 = new JButton();
         b2.setBounds(80, 260, 150, 150);
         b2.setBackground(Color.blue);
-        url = cls.getResource("anyfiles\\icon\\icon\\29.png");
-        b2.setIcon(new ImageIcon(url));
+
+        b2.setIcon(new ImageIcon(getClass().getResource("/29.png")));
         b2.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
@@ -81,8 +80,8 @@ public class ViewTable extends JFrame {
 
         JButton back = new JButton("Back");
         back.setBounds(600, 700, 100, 30);
-        url = cls.getResource("anyfiles\\icon\\icon\\11.png");
-        back.setIcon(new ImageIcon(url));
+        
+        back.setIcon(new ImageIcon(getClass().getResource("/11.png")));
 
         back.setHorizontalAlignment(SwingConstants.LEFT);
         getContentPane().setBackground(Color.red);

@@ -9,7 +9,6 @@ import java.awt.Font;
 import java.io.*;
 import javax.swing.*;
 import java.awt.event.*;
-import java.net.URL;
 import java.sql.*;
 import java.sql.DriverManager;
 import javax.swing.border.TitledBorder;
@@ -42,13 +41,13 @@ public class Login {
         JLabel l2 = new JLabel("Password:");
         l2.setBounds(60, 115, 80, 30);
         JLabel ic1 = new JLabel();
-        Class cls = this.getClass();
-        URL url = cls.getResource("anyfiles\\icon\\icon\\16.jpg");
-        ic1.setIcon(new ImageIcon(url));
+        
+        
+         ic1.setIcon(new ImageIcon(getClass().getResource("/16.jpg")));
+     
         ic1.setBounds(420, 10, 180, 130);
 
-        url = cls.getResource("anyfiles\\icon\\icon\\6.png");
-        JLabel ic2 = new JLabel(new ImageIcon(url));
+        JLabel ic2 = new JLabel(new ImageIcon(getClass().getResource("/6.png")));
         ic2.setBounds(390, 115, 80, 30);
         JLabel l3 = new JLabel("<html><body text=red> trouble in loggin ?</body></html>");
         l3.setBounds(100, 260, 200, 30);
@@ -61,18 +60,18 @@ public class Login {
         value.setToolTipText("Type Admin password");
         JButton b1 = new JButton("Login");
         b1.setBounds(80, 200, 100, 30);
-        url = cls.getResource("anyfiles\\icon\\icon\\5.png");
-        b1.setIcon(new ImageIcon(url));
+       
+        b1.setIcon(new ImageIcon(getClass().getResource("/5.png")));
         b1.setHorizontalAlignment(SwingConstants.LEFT);
         JButton b2 = new JButton("Signup");
         b2.setBounds(250, 200, 100, 30);
-        url = cls.getResource("anyfiles\\icon\\icon\\3.png");
-        b2.setIcon(new ImageIcon(url));
+       
+        b2.setIcon(new ImageIcon(getClass().getResource("/3.png")));
         b2.setHorizontalAlignment(SwingConstants.LEFT);
         JButton b3 = new JButton("Forget Password");
         b3.setBounds(250, 260, 200, 30);
-        url = cls.getResource("anyfiles\\icon\\icon\\7.png");
-        b3.setIcon(new ImageIcon(url));
+       
+        b3.setIcon(new ImageIcon(getClass().getResource("/7.png")));
         b3.setHorizontalAlignment(SwingConstants.LEFT);
         p.add(ic1);
         p.add(ic2);

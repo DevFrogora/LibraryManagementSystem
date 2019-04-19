@@ -3,7 +3,6 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.net.URL;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import javax.swing.BorderFactory;
@@ -98,9 +97,9 @@ public class Return extends JFrame {
 
         search1 = new JButton("Search");
         search1.setBounds(500, 60, 100, 30);
-           Class cls = this.getClass();
-        URL url = cls.getResource("anyfiles\\icon\\icon\\18.png");
-        search1.setIcon(new ImageIcon(url));
+        
+      
+        search1.setIcon(new ImageIcon(getClass().getResource("/18.png")));
 
         search1.setHorizontalAlignment(SwingConstants.LEFT);
 
@@ -141,8 +140,8 @@ public class Return extends JFrame {
         p1.add(t11);
         search2 = new JButton("Search");
         search2.setBounds(1040, 60, 100, 30);
-        url = cls.getResource("anyfiles\\icon\\icon\\17.png");
-        search2.setIcon(new ImageIcon(url));
+      
+        search2.setIcon(new ImageIcon(getClass().getResource("/17.png")));
 
         search2.setHorizontalAlignment(SwingConstants.LEFT);
 
@@ -187,8 +186,8 @@ public class Return extends JFrame {
         add(l18);
         returned = new JButton("Return");
         returned.setBounds(900, 420, 100, 40);
-        url = cls.getResource("anyfiles\\icon\\icon\\14.png");
-        returned.setIcon(new ImageIcon(url));
+       
+        returned.setIcon(new ImageIcon(getClass().getResource("/14.png")));
 
         returned.setHorizontalAlignment(SwingConstants.LEFT);
         add(returned);
@@ -201,8 +200,8 @@ public class Return extends JFrame {
         });
         back = new JButton("Back");
         back.setBounds(100, 420, 100, 40);
-        url = cls.getResource("anyfiles\\icon\\icon\\11.png");
-        back.setIcon(new ImageIcon(url));
+        
+        back.setIcon(new ImageIcon(getClass().getResource("/11.png")));
 
         back.setHorizontalAlignment(SwingConstants.LEFT);
         back.addActionListener(new ActionListener() {

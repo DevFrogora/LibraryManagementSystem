@@ -8,7 +8,6 @@ import javax.swing.border.*;
 import java.awt.event.*;
 import javax.swing.event.*;
 import java.awt.*;
-import java.net.URL;
 import java.time.*;
 import java.time.format.*;
 import java.sql.*;
@@ -89,9 +88,8 @@ public class Issue extends JFrame {
         p1.add(t6);
         search1 = new JButton("Search");
         search1.setBounds(490, 60, 100, 30);
-         Class cls = this.getClass();
-        URL url = cls.getResource("anyfiles\\icon\\icon\\17.png");
-        search1.setIcon(new ImageIcon(url));
+            
+        search1.setIcon(new ImageIcon(getClass().getResource("/17.png")));
 
         search1.setHorizontalAlignment(SwingConstants.LEFT);
 
@@ -167,8 +165,8 @@ public class Issue extends JFrame {
         t17.setEditable(false);
         p2.add(t17);
         search2 = new JButton("Search");
-        url = cls.getResource("anyfiles\\icon\\icon\\18.png");
-        search2.setIcon(new ImageIcon(url));
+      
+        search2.setIcon(new ImageIcon(getClass().getResource("/18.png")));
 
         search2.setHorizontalAlignment(SwingConstants.LEFT);
         search2.setBounds(500, 60, 100, 30);
@@ -188,8 +186,8 @@ public class Issue extends JFrame {
         });
 
         issue = new JButton("               Issue");
-        url = cls.getResource("anyfiles\\icon\\icon\\14.png");
-        issue.setIcon(new ImageIcon(url));
+       
+        issue.setIcon(new ImageIcon(getClass().getResource("/14.png")));
 
         issue.setHorizontalAlignment(SwingConstants.LEFT);
 
@@ -204,8 +202,8 @@ public class Issue extends JFrame {
         add(p2);
         back = new JButton("Back");
         back.setBounds(200, 460, 100, 30);
-        url = cls.getResource("anyfiles\\icon\\icon\\11.png");
-        back.setIcon(new ImageIcon(url));
+        
+        back.setIcon(new ImageIcon(getClass().getResource("/11.png")));
 
         back.setHorizontalAlignment(SwingConstants.LEFT);
         back.addActionListener(new ActionListener() {

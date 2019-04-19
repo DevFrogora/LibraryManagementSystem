@@ -6,7 +6,6 @@
 import java.awt.event.*;
 import javax.swing.*;
 import java.awt.*;
-import java.net.URL;
 import java.sql.ResultSet;
 import javax.swing.border.*;
 
@@ -20,10 +19,10 @@ public class WelcomePage extends JFrame {
     JLabel l1, l2, l3, l44, l4, l5, l6;
 
     WelcomePage() {
-        Class cls = this.getClass();
-        URL url = cls.getResource("anyfiles\\icon\\icon\\2.jpg");
+     
+    
 
-        JLabel head = new JLabel(new ImageIcon(url));
+        JLabel head = new JLabel(new ImageIcon(getClass().getResource("/2.jpg")));
         head.setBounds(0, 0, 440, 100);
         //l1.setSize(100,100);
         head.setLayout(null);
@@ -31,8 +30,8 @@ public class WelcomePage extends JFrame {
         JLabel welcome = new JLabel("<html><body><center>#Welcome</center> <br> <center>to</center> <br> <center>Library Management System</body></html>");
         welcome.setBounds(900, 0, 300, 100);
         add(welcome);
-        url = cls.getResource("anyfiles\\icon\\icon\\17.jpg");
-        JButton logout = new JButton(new ImageIcon(url));
+     
+        JButton logout = new JButton(new ImageIcon(getClass().getResource("/17.jpg")));
         logout.setBounds(1100, 40, 70, 70);
         add(logout);
         logout.addActionListener(new ActionListener() {
@@ -62,8 +61,8 @@ public class WelcomePage extends JFrame {
         p.setBounds(40, 150, 1100, 250);
         p.setLayout(null);
         p.setBackground(Color.white);
-        url = cls.getResource("anyfiles\\icon\\icon\\7.jpg");
-        b1 = new JButton(new ImageIcon(url));
+        
+        b1 = new JButton(new ImageIcon(getClass().getResource("/7.jpg")));
         b1.setBounds(880, 30, 200, 100);
         //l1.setSize(100,100);
         // b1.setLayout(null);
@@ -79,8 +78,8 @@ public class WelcomePage extends JFrame {
         l1 = new JLabel("New Member");
         l1.setBounds(920, 150, 200, 100);
         p.add(l1);
-        url = cls.getResource("anyfiles\\icon\\icon\\8.jpg");
-        b2 = new JButton(new ImageIcon(url));
+       
+        b2 = new JButton(new ImageIcon(getClass().getResource("/8.jpg")));
         b2.setBounds(610, 30, 200, 100);
         //l1.setSize(100,100);
         // b1.setLayout(null);
@@ -100,8 +99,8 @@ public class WelcomePage extends JFrame {
         l2 = new JLabel("Statistics");
         l2.setBounds(640, 150, 200, 100);
         p.add(l2);
-        url = cls.getResource("anyfiles\\icon\\icon\\10.jpg");
-        b3 = new JButton(new ImageIcon(url));
+        
+        b3 = new JButton(new ImageIcon(getClass().getResource("/10.jpg")));
         b3.setBounds(330, 30, 200, 100);
         //l1.setSize(100,100);
         // b1.setLayout(null);
@@ -121,8 +120,8 @@ public class WelcomePage extends JFrame {
         JLabel l33 = new JLabel("Update/Delete");
         l33.setBounds(80, 150, 200, 100);
         p.add(l33);
-        url = cls.getResource("anyfiles\\icon\\icon\\27.png");
-        JButton b33 = new JButton(new ImageIcon(url));
+        
+        JButton b33 = new JButton(new ImageIcon(getClass().getResource("/27.png")));
         b33.setBounds(60, 30, 200, 100);
         //l1.setSize(100,100);
         // b1.setLayout(null);
@@ -153,8 +152,8 @@ public class WelcomePage extends JFrame {
         p1.setBounds(40, 500, 1100, 250);
         p1.setLayout(null);
         p1.setBackground(Color.white);
-        url = cls.getResource("anyfiles\\icon\\icon\\30.png");
-        b44 = new JButton(new ImageIcon(url));
+       
+        b44 = new JButton(new ImageIcon(getClass().getResource("/30.png")));
         b44.setBackground(Color.white);
         b44.setBounds(70, 30, 200, 100);
         //l1.setSize(100,100);
@@ -174,8 +173,8 @@ public class WelcomePage extends JFrame {
         l44 = new JLabel("View Table");
         l44.setBounds(100, 150, 200, 100);
         p1.add(l44);
-        url = cls.getResource("anyfiles\\icon\\icon\\11.jpg");
-        b4 = new JButton(new ImageIcon(url));
+    
+        b4 = new JButton(new ImageIcon(getClass().getResource("/11.jpg")));
         b4.setBounds(330, 30, 200, 100);
         //l1.setSize(100,100);
         // b1.setLayout(null);
@@ -193,8 +192,8 @@ public class WelcomePage extends JFrame {
         l4 = new JLabel("Issue Book");
         l4.setBounds(360, 150, 200, 100);
         p1.add(l4);
-        url = cls.getResource("anyfiles\\icon\\icon\\12.jpg");
-        b5 = new JButton(new ImageIcon(url));
+      
+        b5 = new JButton(new ImageIcon(getClass().getResource("/12.jpg")));
         b5.setBounds(620, 30, 200, 100);
         //l1.setSize(100,100);
         // b1.setLayout(null);
@@ -212,9 +211,9 @@ public class WelcomePage extends JFrame {
         l5 = new JLabel("Return Book");
         l5.setBounds(660, 150, 200, 100);
         p1.add(l5);
-        url = cls.getResource("anyfiles\\icon\\icon\\14.jpg");
+       
 
-        b6 = new JButton(new ImageIcon(url));
+        b6 = new JButton(new ImageIcon(getClass().getResource("/14.jpg")));
         b6.setBounds(880, 30, 200, 100);
         //l1.setSize(100,100);
         // b1.setLayout(null);

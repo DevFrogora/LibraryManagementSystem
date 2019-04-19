@@ -4,12 +4,11 @@
  * and open the template in the editor.
  */
 import java.awt.Color;
+import java.awt.Image;
 import java.io.*;
 import javax.swing.*;
 import java.awt.event.*;
-import java.net.URL;
 import java.sql.ResultSet;
-
 
 /**
  *
@@ -38,21 +37,26 @@ public class InitialFrame extends JFrame {
         t1.setSize(100, 30);
         t1.setBounds(200, 10, 200, 30);
         b1 = new JButton("Create DB & Use");
-        
+
         b1.setBounds(420, 10, 170, 30);
-        Class cls = this.getClass();
-                 
-       URL url;
-       
-            url = cls.getResource("anyfiles\\icon\\icon\\32.png");
-             b1.setIcon(new ImageIcon(url));
-           
-        
-        
-                
-       
-       
-              
+
+        //Class cls = this.getClass();
+        // URL url;
+        // url = cls.getResource("\\icon\\32.png");
+        //   url = new URL("\\icon\\32.png");
+        //Image image=null;
+        // try {
+        //e ImageIO.read(getClass().getResource("yourFolder/yourIcon.png"))
+        //   Image image = ImageIO.read(this.getClass().getResource("anyFiles\\icon\\icon\\32.png"));
+        //   Image image1 = ImageIO.read(new File("icon/db.jpg"));
+        //     image=  ImageIO.read(url);
+        //    b1.setIcon(new ImageIcon(image));
+        // } catch (Exception e) {
+        //    e.printStackTrace();
+        //}
+        //  jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication2/11.png")));
+        b1.setIcon(new ImageIcon(getClass().getResource("/32.png")));
+
         b1.setHorizontalAlignment(SwingConstants.LEFT);
 
         JavaConnection db = new JavaConnection();
@@ -83,16 +87,20 @@ public class InitialFrame extends JFrame {
         // l5.setBackground(Color.yellow);
         l5.setVisible(false);
         add(l5);
-        url = cls.getResource("anyfiles\\icon\\icon\\db.jpg");
-        l6 = new JLabel(new ImageIcon(url));
+
+        l6 = new JLabel(new ImageIcon(getClass().getResource("/db.jpg")));
+        //url = cls.getResource("anyfiles\\icon\\icon\\db.jpg");
+
         l6.setBounds(0, 260, 100, 100);
         l6.setForeground(Color.red);
         l6.setVisible(true);
         add(l6);
         b2 = new JButton("USE");
         b2.setBounds(300, 170, 100, 30);
-        url = cls.getResource("anyfiles\\icon\\icon\\33.png");
-        b2.setIcon(new ImageIcon(url));
+
+        b2.setIcon(new ImageIcon(getClass().getResource("/33.png")));
+        //  url = cls.getResource("anyfiles\\icon\\icon\\33.png");
+
         b2.setHorizontalAlignment(SwingConstants.LEFT);
         b2.setVisible(false);
 
@@ -123,7 +131,7 @@ public class InitialFrame extends JFrame {
                 JOptionPane.showMessageDialog(null, "welcome we Figuered out You haven't used this Software on this computer");
             }
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Internal Problem");
+            JOptionPane.showMessageDialog(this, "please Connect Xamp Start Mysql","Error the Developer Wants You to Start Xamp/Wamp",JOptionPane.ERROR_MESSAGE);
         }
         b1.addActionListener(new ActionListener() {
 
@@ -167,8 +175,20 @@ public class InitialFrame extends JFrame {
         add(b2);
         b3 = new JButton("refresh");
         b3.setBounds(300, 270, 100, 30);
-        url = cls.getResource("anyfiles\\icon\\icon\\31.png");
-        b3.setIcon(new ImageIcon(url));
+
+        /*    try {
+              //e ImageIO.read(getClass().getResource("yourFolder/yourIcon.png"))
+                Image image3 = ImageIO.read(this.getClass().getResource("anyFiles\\icon\\icon\\31.png"));
+       //   Image image1 = ImageIO.read(new File("icon/db.jpg"));
+            //     image=  ImageIO.read(url);
+          b3.setIcon(new ImageIcon(image3));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+         */
+        b3.setIcon(new ImageIcon(getClass().getResource("/31.png")));
+        //url = cls.getResource("anyfiles\\icon\\icon\\31.png");
+
         b3.setHorizontalAlignment(SwingConstants.LEFT);
         b3.addActionListener(new ActionListener() {
 

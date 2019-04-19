@@ -8,7 +8,6 @@ import java.awt.event.*;
 import java.awt.*;
 import java.sql.*;
 import javax.swing.border.*;
-import java.net.URL;
 import java.lang.*;
 
 
@@ -81,10 +80,9 @@ public class ForgetPassword extends JFrame {
 
         search = new JButton("Search");
         search.setBounds(340, 40, 100, 30);
-        Class cls= this.getClass();
-        URL url=cls.getResource("anyfiles\\icon\\icon\\8.png");
+      
         
-        search.setIcon(new ImageIcon(url));
+        search.setIcon(new ImageIcon(getClass().getResource("/8.png")));
 
         search.setHorizontalAlignment(SwingConstants.LEFT);
         search.setBackground(new Color(240, 126, 86));
@@ -97,8 +95,8 @@ public class ForgetPassword extends JFrame {
         });
         retrive = new JButton("Retrive");
         retrive.setBounds(340, 160, 100, 30);
-        url=cls.getResource("anyfiles\\icon\\icon\\bg5.jpg");
-        retrive.setIcon(new ImageIcon(url));
+        
+        retrive.setIcon(new ImageIcon(getClass().getResource("/bg5.jpg")));
 
         retrive.setHorizontalAlignment(SwingConstants.LEFT);
         p.add(retrive);
@@ -112,8 +110,8 @@ public class ForgetPassword extends JFrame {
 
         back = new JButton("Back");
         back.setSize(100, 100);
-        url=cls.getResource("anyfiles\\icon\\icon\\11.png");
-        back.setIcon(new ImageIcon(url));
+        
+        back.setIcon(new ImageIcon(getClass().getResource("/11.png")));
 
         back.setHorizontalAlignment(SwingConstants.LEFT);
 
