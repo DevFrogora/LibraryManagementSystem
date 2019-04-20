@@ -17,6 +17,7 @@
   <br>
 
   </div>
+  ---
 
 # Library Management System
 
