@@ -21,7 +21,7 @@
 
 # Library Management System
 
-<p><b>Admin</b> can enter details related to a particular book. He can provide membership to members. Can read and write information about any member. He can update, create, delete the record of membership as per requirement.<br>
+<p><b>Admin</b> can enter details related to a books/members. He can provide membership to members. Can read and write information about any member. He can update, create, delete the record of membership as per requirement.<br>
  This application maintains the record of books in the library, issue and return process of the books in the library. Here we are primarily concerned with management of books of library.
 </p>
 
