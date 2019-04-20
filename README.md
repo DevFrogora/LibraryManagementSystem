@@ -17,7 +17,8 @@
   <br>
 
   </div>
-  ---
+
+---
 
 # Library Management System
 
@@ -28,4 +29,5 @@
 ## Prerequisites
 
 We need to install the MySQL server before we install our application
-,I am using XAMPP , You can download any other Db server who provide MySQL server , You can download [XAMPP](https://www.apachefriends.org/download.html) and The [installation guide](https://www.apachefriends.org/faq_windows.html) will guide you through the entire installation process. If you run into any problems, join our [Discord server](https://discord.gg/XH5zrtT) for help and support.
+,I am using XAMPP , You can download any other Db server who provide MySQL server , You can download [XAMPP](https://www.apachefriends.org/download.html) and The [installation guide](https://www.apachefriends.org/faq_windows.html) will guide you through the entire installation process. If you run into any problems, join our [**Discord server**](https://discord.gg/XH5zrtT) for help and support.
+<br><br>You need to start the MySQl server for connectivity with the DataBase <img src="https://cdn.discordapp.com/attachments/568798858185015336/569037517639122954/3.png" align="right" height="350">
