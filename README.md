@@ -35,3 +35,5 @@ We need to install the MySQL server before we install our application
 
 <img src="https://cdn.discordapp.com/attachments/568798858185015336/569037517639122954/3.png" align="right" height="350">
 ## Installation
+
+You can [download]() our application & install it 
