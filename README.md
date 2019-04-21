@@ -50,13 +50,13 @@ You can [download](https://www.mediafire.com/file/b9552r520d55nyd/Library_Mangem
 
 - Step 2: Click Next  <img src="https://cdn.discordapp.com/attachments/568798858185015336/569166782464655365/14.png" align="right">
 
-<br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 - Step 3: Accept the agreement <img src="https://cdn.discordapp.com/attachments/568798858185015336/569175831792975875/17.png" align="right">
 
 - Step 4: Select the path where you want to <img src="https://cdn.discordapp.com/attachments/568798858185015336/569169887553912832/15.png" align="right"> Install the application and then Click on next
 
-<br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 - Step 5: Click Finish <img src="https://cdn.discordapp.com/attachments/568798858185015336/569169887553912832/15.png" align="right"> Install the application and then Click on next
 
