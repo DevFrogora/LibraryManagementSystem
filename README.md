@@ -68,7 +68,17 @@ You can [download](https://www.mediafire.com/file/q3poqw336a2sndq/LMS_Win64bit.r
 <br><br><br><br><br><br><br><br><br>
 
 ---
+## How To Use?
+-- go to wiki
+<br>
+```sequence
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+​```
+<br>
 
+---
 ## Quick Overview
 
 <strong>Project name:</strong> Library Management System<br>
