@@ -44,7 +44,7 @@ We need to install the MySQL server before we install our application
 
 ## Installation
 
-You can [download](https://www.mediafire.com/file/b9552r520d55nyd/Library_Mangement_System_win64bit.rar/file) our application & install it
+You can [download](https://www.mediafire.com/file/q3poqw336a2sndq/LMS_Win64bit.rar/file) our application & install it
 ###### installation process
 
 - Step 1:Click one Installer <img src="https://cdn.discordapp.com/attachments/568798858185015336/569161398983196721/13.png" align="right">
