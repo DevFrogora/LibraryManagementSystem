@@ -71,10 +71,10 @@ You can [download](https://www.mediafire.com/file/b9552r520d55nyd/Library_Mangem
 
 ## Quick Overview
 
-**Project name: ** Library Management System<br>
-**Main language(s): ** Java <br>
-**Any additional libraries or overhead:**  Nope, just pure Java libraries currently<br>
-**Single line description of project:** GUI software for Storing data related to Book and member of library <br>
-**Progress to completion:** The project is complete<br>
-**Detailed description:** This GUI Software handle data of book,member of library and issue/return details of book , and searching /update/deletion of book/member its need XAMP to connect with DB, it will not delete the member and book if book is Issue to some member<br>
-**Repo link:**  https://github.com/DieAgain/LibraryManagementSystem
+<strong>Project name:</strong> Library Management System<br>
+<strong>Main language(s):</strong> Java <br>
+<strong>Any additional libraries or overhead:</strong> Nope, just pure Java libraries currently<br>
+<strong>Single line description of project:</strong> GUI software for Storing data related to Book and member of library <br>
+<strong>Progress to completion:</strong> The project is complete<br>
+<strong>Detailed description:</strong> This GUI Software handle data of Book , Member of library and issue/return details of book , and Searching /update/deletion of book/member its need XAMPP to connect with DB, It will not delete the member and book if book is Issue to someone.<br>
+<strong>Repo link:</strong>  https://github.com/DieAgain/LibraryManagementSystem
