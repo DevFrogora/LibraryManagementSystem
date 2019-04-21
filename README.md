@@ -4,11 +4,14 @@
   <br>
    <strong><i>A simple GUI application of Library Management.</i></strong>
    <br><br>
+   <a href="https://www.apachefriends.org/download.html">
+   <img src="https://img.shields.io/badge/DEPLOY-XAMPP-ff69b4.svg" alt="Deploy XAMPP">
   <a href="https://github.com/DieAgain/LibraryManagementSystem/blob/master/LICENSE">
   <img src="https://img.shields.io/badge/LICENSE-GPL--2.0-red.svg" alt="GPL_v2 License">
   </a>
   <a href="https://github.com/DieAgain/LibraryManagementSystem">
 <img src="https://img.shields.io/github/downloads/DieAgain/LibraryManagementSystem/total.svg" alt="Total No. of Downloads">
+
   <!--
     [![Github All Releases](https://img.shields.io/github/downloads/DieAgain/LibraryManagementSystem/total.svg)]()
   -->
@@ -60,6 +63,18 @@ You can [download](https://www.mediafire.com/file/b9552r520d55nyd/Library_Mangem
 
 <br><br><br><br><br><br><br><br><br>
 
-- Step 5: Click Finish <img src="https://cdn.discordapp.com/attachments/568798858185015336/569169887553912832/15.png" align="right">
+- Step 5: After Installation ,click Finish <img src="https://cdn.discordapp.com/attachments/568798858185015336/569171891328253953/16.png" align="right">
 
-<br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+
+---
+
+## Quick Overview
+
+**Project name: ** Library Management System<br>
+**Main language(s): ** Java <br>
+**Any additional libraries or overhead:**  Nope, just pure Java libraries currently<br>
+**Single line description of project:** GUI software for Storing data related to Book and member of library <br>
+**Progress to completion:** The project is complete<br>
+**Detailed description:** This GUI Software handle data of book,member of library and issue/return details of book , and searching /update/deletion of book/member its need XAMP to connect with DB, it will not delete the member and book if book is Issue to some member<br>
+**Repo link:**  https://github.com/DieAgain/LibraryManagementSystem
